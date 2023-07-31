@@ -1,0 +1,31 @@
+.basketContainer {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #F5F1EE;
+    color: #875541;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+
+    i {
+        font-size: 22px;
+    }
+
+    .productPiece {
+        position: absolute;
+        top: 0;
+        right: -6px;
+        background-color: #1D364D;
+        color: #ffffff;
+        font-size: 12px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

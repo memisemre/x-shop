@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    border-bottom: 1px solid #EDEDED;
+
+    nav {
+        display: flex;
+        gap: 16px;
+
+        a {
+            font-size: 14px;
+            color: #4a4a4a;
+        }
+    }
+
+    .logo {
+        position: relative;
+
+        &:hover {
+            div {
+                top: -4px;
+            }
+        }
+
+        div {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #FFF;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s all ease;
+
+            span {
+                color: #0D3356;
+                font-size: 50px;
+
+                font-weight: 700;
+            }
+        }
+    }
+
+    .userControl {
+        display: flex;
+        gap: 24px;
+
+        .loginBTN {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 56px;
+            width: 56px;
+            border-radius: 50%;
+            background: #EEEFF8;
+            color: #4a4a4a;
+            font-size: 22px;
+        }
+    }
+}
